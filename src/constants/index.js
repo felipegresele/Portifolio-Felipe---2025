@@ -17,10 +17,10 @@ import {
   starbucks,
   tesla,
   shopify,
-  agenda,
   url,
   foodman,
-  tempo
+  tempo,
+  financios
 } from "../assets";
 
 export const navLinks = [
@@ -228,25 +228,26 @@ const projects = [
   },
 
   {
-    name: "Agenda de Contatos",
+    name: "Gestão de finanças",
     description:
-      "Desenvolvi um CRUD completo de agenda de contatos em Java Web, implementado com o padrão de arquitetura MVC. O sistema permite adicionar, editar e excluir contatos, utilizando tecnologias como Servlet, JSP, JDBC e MySQL. A aplicação foi configurada e publicada com sucesso no servidor de aplicação Tomcat, garantindo desempenho e escalabilidade.",
+      "FinanceOS é um sistema completo de gestão financeira com Spring Boot + React, JWT, WebSocket em tempo real, gráficos interativos, metas financeiras e exportação PDF.",
     tags: [
       {
-        name: "java",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mvc",
+        name: "spring-boot",
         color: "green-text-gradient",
       },
       {
-        name: "mysql",
+        name: "postgresql",
         color: "pink-text-gradient",
       },
     ],
-    image: agenda,
-    source_code_link: "https://github.com/felipegresele/AgendaContatosJava.git",
+    image: financios,
+    source_code_link: "https://financeos-frontend-rho.vercel.app",
+    repository_link: "https://github.com/felipegresele/financeos-frontend"
   },
   
   {

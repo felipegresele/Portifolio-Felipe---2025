@@ -28,10 +28,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import agenda from "./agenda.png";
-import url from "./url.png";
-import tempo from "./tempo.png";
-import foodman from "./foodman.png";
+import url from "./projects/url.png";
+import tempo from "./projects/tempo.png";
+import foodman from "./projects/foodman.png";
+import financios from "./projects/projeto-financios.png"
 
 export {
   logo,
@@ -61,8 +61,8 @@ export {
   shopify,
   starbucks,
   tesla,
-  agenda,
   url,
   tempo,
-  foodman
+  foodman,
+  financios
 };
