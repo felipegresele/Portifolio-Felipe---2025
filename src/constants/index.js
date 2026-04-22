@@ -203,6 +203,7 @@ const projects = [
     ],
     image: foodman,
     source_code_link: "https://food-man-site-r3fxioqje-felipegreseles-projects.vercel.app/",
+    repository_link: "https://github.com/felipegresele/FOODman.git"
   },
 
   {
@@ -225,6 +226,7 @@ const projects = [
     ],
     image: tempo,
     source_code_link: "https://github.com/felipegresele/Previs-o-do-Tempo-",
+    repository_link: "https://github.com/felipegresele/financeos-frontend"
   },
 
   {
@@ -270,6 +272,7 @@ const projects = [
     ],
     image: url,
     source_code_link: "https://github.com/felipegresele/JAVA-EncurtadorURL.git",
+    repository_link: "https://github.com/felipegresele/JAVA-EncurtadorURL.git"
   },
   
 ];
