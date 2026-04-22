@@ -20,7 +20,8 @@ import {
   url,
   foodman,
   tempo,
-  financios
+  financios,
+  smartTask
 } from "../assets";
 
 export const navLinks = [
@@ -207,26 +208,26 @@ const projects = [
   },
 
   {
-    name: "Previsão do tempo",
+    name: "SmartTask",
     description:
-      "Este projeto é um aplicativo de previsão do tempo desenvolvido com React, onde o usuário pode consultar as condições climáticas de qualquer cidade em tempo real. Utilizando uma API externa, o app exibe dados como temperatura, umidade e condições do clima, oferecendo uma experiência prática para quem quer aprender a trabalhar com React e integração de APIs no desenvolvimento front-end.",
+      "Aplicação de gerenciamento de tarefas com board Kanban, autenticação JWT e sugestão de tarefas por IA (Google Gemini).",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "spring-boot",
         color: "green-text-gradient",
       },
       {
-        name: "javascript",
+        name: "gemini-AI",
         color: "pink-text-gradient",
       },
     ],
-    image: tempo,
-    source_code_link: "https://github.com/felipegresele/Previs-o-do-Tempo-",
-    repository_link: "https://github.com/felipegresele/financeos-frontend"
+    image: smartTask,
+    source_code_link: "https://smart-tasks-frontend.vercel.app/",
+    repository_link: "https://github.com/felipegresele/smart-tasks-frontend"
   },
 
   {

@@ -32,6 +32,7 @@ import url from "./projects/url.png";
 import tempo from "./projects/tempo.png";
 import foodman from "./projects/foodman.png";
 import financios from "./projects/projeto-financios.png"
+import smartTask from "./projects/smart-task.png"
 
 export {
   logo,
@@ -64,5 +65,6 @@ export {
   url,
   tempo,
   foodman,
-  financios
+  financios,
+  smartTask
 };

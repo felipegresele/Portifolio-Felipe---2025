@@ -25,13 +25,13 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-[420px] flex flex-col justify-between"
       >
-        <div className="relative max-w-120 max-h-90">
+        <div className="relative w-full h-[180px]">
           <img
             src={image}
             alt="project_image"
-            className="max-w-80 max-h-60 object-cover rounded-2xl"
+            className="w-full h-full object-cover rounded-2xl"
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -50,10 +50,15 @@ const ProjectCard = ({
 
         <div className="mt-5">
           <h3 className="text-white font-bold text-md">{name}</h3>
-          <p className="mt-2 text-white/80 text-xs">{description}</p>
+          <p className="mt-2 text-white/80 text-xs line-clamp-3">
+            {description}
+          </p>
           <div className="gap-2 flex items-center mt-2">
             <p className="text-xs gap-2">link repositorio:</p>
-            <a href={repository_link} className="text-xs text-blue-400 cursor-pointer">
+            <a
+              href={repository_link}
+              className="text-xs text-blue-400 cursor-pointer"
+            >
               acesse aqui.
             </a>
           </div>
