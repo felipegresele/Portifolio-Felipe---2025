@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import curriculo from "../assets/projects/curriculo-fullstack.pdf"
+import curriculo from "../assets/projects/curriculo.pdf"
 import { c } from "maath/dist/index-0332b2ed.esm";
 
 export default function Hero() {
