@@ -17,10 +17,11 @@ import {
   starbucks,
   tesla,
   shopify,
-  agenda,
   url,
   foodman,
-  tempo
+  tempo,
+  financios,
+  smartTask
 } from "../assets";
 
 export const navLinks = [
@@ -203,50 +204,53 @@ const projects = [
     ],
     image: foodman,
     source_code_link: "https://food-man-site-r3fxioqje-felipegreseles-projects.vercel.app/",
+    repository_link: "https://github.com/felipegresele/FOODman.git"
   },
 
   {
-    name: "Previsão do tempo",
+    name: "SmartTask",
     description:
-      "Este projeto é um aplicativo de previsão do tempo desenvolvido com React, onde o usuário pode consultar as condições climáticas de qualquer cidade em tempo real. Utilizando uma API externa, o app exibe dados como temperatura, umidade e condições do clima, oferecendo uma experiência prática para quem quer aprender a trabalhar com React e integração de APIs no desenvolvimento front-end.",
+      "Aplicação de gerenciamento de tarefas com board Kanban, autenticação JWT e sugestão de tarefas por IA (Google Gemini).",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "spring-boot",
         color: "green-text-gradient",
       },
       {
-        name: "javascript",
+        name: "gemini-AI",
         color: "pink-text-gradient",
       },
     ],
-    image: tempo,
-    source_code_link: "https://github.com/felipegresele/Previs-o-do-Tempo-",
+    image: smartTask,
+    source_code_link: "https://smart-tasks-frontend.vercel.app/",
+    repository_link: "https://github.com/felipegresele/smart-tasks-frontend"
   },
 
   {
-    name: "Agenda de Contatos",
+    name: "Gestão de finanças",
     description:
-      "Desenvolvi um CRUD completo de agenda de contatos em Java Web, implementado com o padrão de arquitetura MVC. O sistema permite adicionar, editar e excluir contatos, utilizando tecnologias como Servlet, JSP, JDBC e MySQL. A aplicação foi configurada e publicada com sucesso no servidor de aplicação Tomcat, garantindo desempenho e escalabilidade.",
+      "FinanceOS é um sistema completo de gestão financeira com Spring Boot + React, JWT, WebSocket em tempo real, gráficos interativos, metas financeiras e exportação PDF.",
     tags: [
       {
-        name: "java",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mvc",
+        name: "spring-boot",
         color: "green-text-gradient",
       },
       {
-        name: "mysql",
+        name: "postgresql",
         color: "pink-text-gradient",
       },
     ],
-    image: agenda,
-    source_code_link: "https://github.com/felipegresele/AgendaContatosJava.git",
+    image: financios,
+    source_code_link: "https://financeos-frontend-rho.vercel.app",
+    repository_link: "https://github.com/felipegresele/financeos-frontend"
   },
   
   {
@@ -269,6 +273,7 @@ const projects = [
     ],
     image: url,
     source_code_link: "https://github.com/felipegresele/JAVA-EncurtadorURL.git",
+    repository_link: "https://github.com/felipegresele/JAVA-EncurtadorURL.git"
   },
   
 ];
