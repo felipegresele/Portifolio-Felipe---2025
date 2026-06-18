@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import curriculo from "../assets/projects/curriculo.pdf"
 import { c } from "maath/dist/index-0332b2ed.esm";
 
 export default function Hero() {
@@ -24,7 +23,9 @@ export default function Hero() {
           Desenvolvo interfaces de usuário e aplicativos web <br className='sm:block hidden' />
           com habilidades em programação front-end e back-end
           </p>
-          <a className="bg-indigo-400 hover:bg-indigo-600 text-white px-4 py-2 rounded-full inline-block mt-4" href={curriculo} download={curriculo}>Baixar CV</a>
+          <a className="bg-indigo-400 hover:bg-indigo-600 text-white px-4 py-2 rounded-full inline-block mt-4"
+          href="/Currículo-BackEnd-Felipe-Gresele.pdf"
+          download={"Currículo-BackEnd-Felipe-Gresele.pdf"}>Baixar CV</a>
         </div>
       </div>
     </section>
