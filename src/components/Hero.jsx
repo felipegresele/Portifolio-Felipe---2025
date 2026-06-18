@@ -20,7 +20,7 @@ export default function Hero() {
             Olá, eu sou <span className='text-[#915EFF]'>Felipe Gresele</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          Desenvolvo interfaces de usuário e aplicativos web <br className='sm:block hidden' />
+          Desenvolvo interfaces de usuários e aplicativos web <br className='sm:block hidden' />
           com habilidades em programação front-end e back-end
           </p>
           <a className="bg-indigo-400 hover:bg-indigo-600 text-white px-4 py-2 rounded-full inline-block mt-4"
