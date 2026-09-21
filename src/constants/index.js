@@ -254,27 +254,39 @@ const projects = [
   },
   
   {
-    name: "Encurtador URL",
-    description:
-      "O projeto é um encurtador de URLs que gera links curtos, compostos por 5 a 10 caracteres alfanuméricos. Cada URL encurtada, com um prazo de validade, é armazenada no MongoDB. Ao ser acessada, a URL encurtada redireciona para o link original. Caso não seja encontrada no banco, retorna erro 404.",
-    tags: [
-      {
-        name: "java",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "spring",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: url,
-    source_code_link: "https://github.com/felipegresele/JAVA-EncurtadorURL.git",
-    repository_link: "https://github.com/felipegresele/JAVA-EncurtadorURL.git"
-  },
+  name: "Encurtador URL",
+  description:
+    "Encurtador de URLs serverless na AWS, com duas Lambdas em Java 17 + Spring (criação e redirecionamento), armazenamento em S3 e front-end em React + TypeScript.",
+  tags: [
+    {
+      name: "java",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "spring",
+      color: "green-text-gradient",
+    },
+    {
+      name: "aws-lambda",
+      color: "orange-text-gradient",
+    },
+    {
+      name: "aws-s3",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "typescript",
+      color: "green-text-gradient",
+    },
+  ],
+  image: url,
+  source_code_link: "https://shortener-url-aws-five.vercel.app/",
+  repository_link: "https://github.com/felipegresele/shortener-url-aws",
+},
   
 ];
 
