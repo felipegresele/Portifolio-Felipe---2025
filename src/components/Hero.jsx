@@ -1,8 +1,4 @@
-import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
-import { c } from "maath/dist/index-0332b2ed.esm";
 
 export default function Hero() {
   return (
@@ -24,7 +20,7 @@ export default function Hero() {
           com habilidades em programação front-end e back-end
           </p>
           <a className="bg-indigo-400 hover:bg-indigo-600 text-white px-4 py-2 rounded-full inline-block mt-4"
-          href="/Currículo-BackEnd-Felipe-Gresele.pdf"
+          href="Curriculo-Backend-Felipe-Gresele.pdf"
           download={"Currículo-BackEnd-Felipe-Gresele.pdf"}>Baixar CV</a>
         </div>
       </div>
