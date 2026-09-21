@@ -1,27 +1,21 @@
 import {
-  mobile,
   backend,
   creator,
   web,
   javascript,
-  html,
-  css,
   reactjs,
   spring,
   java,
   mongodb,
+  mysql,
   git,
-  figma,
+  aws,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   url,
   foodman,
-  tempo,
   financios,
-  smartTask
+  smartTask,
+  typescript
 } from "../assets";
 
 export const navLinks = [
@@ -56,16 +50,8 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Typescript",
+    icon: typescript,
   },
   {
     name: "React JS",
@@ -80,16 +66,20 @@ const technologies = [
     icon: java,
   },
   {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "git",
-    icon: git,
+    name: "AWS",
+    icon: aws,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "git",
+    icon: git,
   },
   {
     name: "docker",
@@ -101,7 +91,7 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "Starbucks",
-    icon: starbucks,
+    icon: null,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -114,7 +104,7 @@ const experiences = [
   {
     title: "React Native Developer",
     company_name: "Tesla",
-    icon: tesla,
+    icon: null,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -127,7 +117,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Shopify",
-    icon: shopify,
+    icon: null,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -140,7 +130,7 @@ const experiences = [
   {
     title: "Full stack Developer",
     company_name: "Meta",
-    icon: meta,
+    icon: null,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
